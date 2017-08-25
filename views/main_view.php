@@ -1,28 +1,7 @@
-
 <div id="container" class="clear">
-    <!-- content body -->
-    <!-- main content -->
-    <section id="homepage" class="last clear">
-        <!-- article 1 -->
-        <article class="one_third">
-            <h2>Lorum ipsum dolor</h2>
-            <img src="images/demo/80x80.gif" alt="">
-            <p>This is a W3C compliant free website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. For full terms of use of this template please read our <a href="http://www.os-templates.com/template-terms">website template licence</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more HTML5 templates visit <a href="http://www.os-templates.com/">free website templates</a>.</p>
-            <footer class="more"><a href="#">Read More &raquo;</a></footer>
-        </article>
-        <!-- article 2 -->
-        <article class="one_third">
-            <h2>Lorum ipsum dolor</h2>
-            <img src="images/demo/80x80.gif" alt="">
-            <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</p>
-            <footer class="more"><a href="#">Read More &raquo;</a></footer>
-        </article>
-        <!-- article 3 -->
-        <article class="one_third lastbox">
-            <h2>Lorum ipsum dolor</h2>
-            <img src="images/demo/80x80.gif" alt="">
-            <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet.</p>
-            <footer class="more"><a href="#">Read More &raquo;</a></footer>
-        </article>
-    </section>
+<iframe src="https://www.youtube.com/embed/RcmrbNRK-jY?ecver=2" width="961" height="650" frameborder="0" autoplay></iframe>
+<h3>"I see my path, but I don't know where it leads. Not knowing where I'm going is what inspires me to travel it.<br>
+Jumping into new adventures with an open mind and letting life hit you is one of the most freeing feelings in the world.<br>
+Travel while you're young and able. Don't worry about the money, just make it work."
+</h3>
 </div>

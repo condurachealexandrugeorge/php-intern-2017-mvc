@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <title>Roweb</title>
+    <title>Travel agency</title>
     <meta charset="iso-8859-1">
     <link rel="stylesheet" href="/assets/css/layout.css" type="text/css">
     <link rel="stylesheet" href="/assets/css/curs2.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../images/demo/icon.png">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 

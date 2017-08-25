@@ -15,11 +15,11 @@ body{margin:0; padding:0; font-size:13px; font-family:Georgia, "Times New Roman"
 html[xmlns] .clear{display:block;}
 * html .clear{height:1%;}
 
-a{outline:none; text-decoration:none;}
+a{outline:none; text-decoration:none; color: black;}
 
 code{font-weight:normal; font-style:normal; font-family:Georgia, "Times New Roman", Times, serif;}
 
-.fl_left{float:left;}
+
 .fl_right{float:right;}
 
 img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
@@ -39,15 +39,15 @@ q:after{content:' „'; font-size:26px; line-height:0;}
 
 div.wrapper{display:block; width:960px; margin:0 auto; padding:0; text-align:left;}
 
-.row1, .row1 a{color:#979797; background-color:#FFFFFF;}
-.row2{color:#979797; background-color:#FFFFFF;}
+.row1, .row1 a{color:#979797; float: center; padding-top: 20px;}
+.row2{color:#979797;}
 .row2 a{color:#FF9900; background-color:#FFFFFF;}
 .row3{border-top:1px solid #DEDEDE;}
 .row3, .row3 a{color:#979797; background-color:#FFFFFF;}
 
 /*----------------------------------------------Generalise-------------------------------------*/
 
-#header, #container, #footer{display:block; width:960px;}
+#header, #container, #footer{display:block; width:100%;}
 
 nav ul{margin:0; padding:0; list-style:none;}
 
@@ -59,31 +59,31 @@ blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#
 blockquote:before, q:before{content:'“ '; font-size:26px;}
 blockquote:after, q:after{content:' „'; font-size:26px; line-height:0;}
 
-.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 0;}
-.one_third{width:300px;}
+.one_third, .two_third, .three_third{display:block; float:left; margin:0 30px 0 5px;}
+.one_third{width:285px;}
 .two_third{width:630px;}
 .three_third{width:960px; float:none; margin-right:0; clear:both;}
 .lastbox{margin-right:0;}
 
 /*----------------------------------------------Header-------------------------------------*/
 
-#header{}
-
-#header #hgroup{padding:20px 0 0 0; float:left;}
+#header{ background-color: #00FFFF;}
+#logo{float: left;padding: 5px;}
+#header #hgroup{text-align: center;}
 #header #hgroup h1, #header #hgroup h2{font-weight:normal; text-transform:none;}
-#header #hgroup h1{font-size:36px;}
-#header #hgroup h2{font-size:13px;}
+#header #hgroup h1{font-size:50px; color: black;}
+#header #hgroup h2{font-size:30px; font-family: 'Lobster', cursive;}
 
-#header nav{display:block; float:right; margin:10px 0 0 0; padding:10px 10px; border-top:1px solid #DEDEDE; border-bottom:1px solid #DEDEDE;}
-#header nav ul{}
+#header nav{display:block; margin:10px 0 0 0; padding:10px 10px;}
+#header nav ul{ text-align: center; }
 #header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
 #header nav li.last{margin-right:0;}
 #header nav li a{}
-#header nav li a:hover{color:#FF9900; }
+#header nav li a:hover{color:#FF9900; filter: alpha(opacity=60);}
 
 /*----------------------------------------------Content Area-------------------------------------*/
 
-#container{padding:30px 0;}
+#container{ background-color: #00FFFF;}
 #container section{display:block; width:100%; margin:0 0 30px 0; padding:0;}
 #container .last{margin:0;}
 #container .more{text-align:right; text-transform:uppercase; font-size:smaller; font-weight:bold;}
@@ -184,13 +184,13 @@ ul.tabs li.current{
 body {
   font-family: 'Nunito', sans-serif;
   color: #384047;
+  background-image: url("background.jpg");
 }
 
 form {
   max-width: 300px;
   margin: 10px auto;
   padding: 10px 20px;
-  background: #f4f7f8;
   border-radius: 8px;
 }
 
@@ -232,7 +232,7 @@ input[type="checkbox"] {
 
 select {
   padding: 6px;
-  height: 32px;
+  height: 50px;
   border-radius: 2px;
 }
 
@@ -295,11 +295,21 @@ label.light {
 }
 
 
-#footer{padding:20px 0;}
-#footer p{margin:0; padding:0;}
+#footer{width: 100%; height: 150px; bottom: 0px; position: relative; background-color:#00FFFF }
+#footer p{margin:0; padding-top: 50px; text-align: center; font-size: 30px;}
 
 @media only screen and (max-width: 768px){
 	.one_third{
 		width:100%;
 	}
+}
+
+#container h3 {
+
+color: black;
+font-family: ARIAL, cursive;
+font-size: 16px;
+text-align: center;
+text-indent: 40px;
+background-color: #00FFFF;
 }
